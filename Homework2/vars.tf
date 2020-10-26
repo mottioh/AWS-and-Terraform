@@ -9,7 +9,7 @@ terraform {
 
   variable "machine_type"{
     description = "AMI type"
-    default     = "t2.medium"
+    default     = "t2.micro"
   }
   
 
